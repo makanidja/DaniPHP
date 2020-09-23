@@ -6,11 +6,9 @@
     <title>Data Type</title>
 </head>
 <body>
-    
     <?php 
-    
-        $ime = "MArko";
-    
+        $name =  "Marko";
+        echo $name;
     
     ?>
 </body>
