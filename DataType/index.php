@@ -7,9 +7,23 @@
 </head>
 <body>
     <?php 
-        $name =  "Marko";
-        echo $name;
-    
+    // String
+    $name  = "Coding is fun!";
+    echo $name."<br>";
+
+    // Integer
+    $name1 = 20;
+    echo $name1."<br>";
+
+    // Float
+    $name2 = 20.5784;
+    echo $name2."<br>";
+
+    // Array
+    $name3 = array("Maka", "Saka", "Daka");
+    echo $name3['1'];
+
+
     ?>
 </body>
 </html>
