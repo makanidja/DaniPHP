@@ -11,10 +11,10 @@
 <input type="text" name="num2" placeholder="Number 2">
 <select name="operator">
     <option >None</option>
-    <option >Add</option>
-    <option >Subtract</option>
-    <option >Multiplay</option>
-    <option >Divide</option>
+    <option >+</option>
+    <option >-</option>
+    <option >*</option>
+    <option >/</option>
 </select>
 <br>
 <button type="submit" name="submit" value="submit">Calculate</button>
@@ -33,19 +33,19 @@
                     echo "You need to select a method!";
                 break;
 
-                case "Add" :
+                case "+" :
                     echo $result1 + $result2;
                 break;
 
-                case "Subtract" :
+                case "-" :
                     echo $result1 - $result2;
                 break;
 
-                case "Multiplay" :
+                case "*" :
                     echo $result1 * $result2;
                 break;
 
-                case "Divide" :
+                case "/" :
                     echo $result1 / $result2;
                 break;
             }
